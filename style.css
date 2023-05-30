@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    margin-top: 20%;
+}
+.img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#img2 {
+    margin-left: -50%;
+    position: relative;
+    z-index: -1;
+}
+
+.buttons {
+    display: flex;
+    justify-content: space-between;
+    width: calc(100% + 100px);
+    margin-left: -27%;
+}
+.button_on > button,
+.button_off > button {
+    padding: .5rem;
+    border-radius: 10px;
+    color: white;
+    font-weight: 600;
+    background: linear-gradient(91.79deg, #FF34FE 0%, #214AF3 100%);
+}
